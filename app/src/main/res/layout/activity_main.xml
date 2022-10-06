@@ -16,6 +16,13 @@
     <Button
         android:id="@+id/btnButton"
         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE" />
+
+    <fragment
+        android:id="@+id/fra"
+        android:name="com.example.viewmodel.BlankFragment"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content" />
 
 </LinearLayout>
